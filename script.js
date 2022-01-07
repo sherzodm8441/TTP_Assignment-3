@@ -29,7 +29,7 @@ console.log(classFooter)
 
 
 //7) Remove the class main on the div with a class of footer.
-classFooter.classList.remove("main")
+classFooter.removeAttribute("class")
 console.log(classFooter)
 
 //8) Create a new li element.
